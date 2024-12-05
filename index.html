@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <h1>typtest</h1>
+    <button id="start-button">Start</button>
+    <div id="game-container" style="display: none;">
+        <p><span id="timer">60</span>s</p>
+        <p><span id="current-word"></span></p>
+        <input type="text" id="input-word" disabled>
+    </div>
+    <div id="result-container" style="display: none;">
+        <h2>Resultaat</h2>
+        <p id="class">Je typte <span id="final-word-count"></span> woorden (<span id="final-char-count"></span> karakters) per minuut</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
